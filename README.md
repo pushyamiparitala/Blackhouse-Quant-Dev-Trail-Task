@@ -12,11 +12,8 @@ This system simulates a production Smart Order Router by:
 
  📊 System Architecture
 
+<img width="576" alt="Screenshot 2025-06-19 at 5 45 00 PM" src="https://github.com/user-attachments/assets/8dd826b4-d721-4569-8b72-04661418aaad" />
 
-l1_day.csv → Kafka Producer → mock_l1_stream → Kafka Consumer → SOR Backtester
-     ↓              ↓              ↓              ↓              ↓
-Historical    Real-time      Message Queue   Process Each   Output Results
-Market Data   Simulation     (Kafka)         Snapshot       (JSON)
 
 
 🚀 Quick Start (Local Development)
