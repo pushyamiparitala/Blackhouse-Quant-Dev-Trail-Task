@@ -219,7 +219,7 @@ json
 }
 
 
- 📸 Screenshots (Required for Submission)
+ 📸 Screenshots 
 
 Screenshot 1: Kafka + Backtest Running on local
 
@@ -227,13 +227,15 @@ Screenshot 1: Kafka + Backtest Running on local
 - Shows Kafka producer running in one terminal
 - Shows SOR backtest running in another terminal
 - Display real-time log output
-
+<img width="753" alt="Screenshot 2025-06-19 at 5 49 39 PM" src="https://github.com/user-attachments/assets/837a753d-d07d-4043-9ea1-10cd57abdf32" />
 
 Screenshot 2: Stdout JSON Result
 
 - Shows the final JSON output from backtest.py
 - Highlight the savings vs baselines
 - Display the optimized parameters
+<img width="517" alt="Screenshot 2025-06-19 at 5 50 09 PM" src="https://github.com/user-attachments/assets/41f534e0-19f9-4f33-a534-a303f00a15c2" />
+
 
 
 Screenshot 3: System Information
@@ -243,6 +245,7 @@ uptime
 uname -a
 systemctl status kafka zookeeper
 ./kafka/bin/kafka-topics.sh --list --bootstrap-server localhost:9092
+![image](https://github.com/user-attachments/assets/979958b2-4646-44b4-bb9c-df8b8f32fdc2)
 
 
 📄 Output Files
