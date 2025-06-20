@@ -1,1 +1,0 @@
-# Blackhouse-Quant-Dev-Trail-Task
